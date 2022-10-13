@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOO Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    
+  <section id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-select ">
+        <div class="container">
+            <a href="#" class="navbar-brand ">
+                <img class="img-fluid sign" src="img/zoo_store2.png" alt="Zoo logo">
+                <!-- Zoo Store -->
+            </a>
+            <button class="navbar-toggler" style="align-content: right; "type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#Account" class="nav-link active">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Cart" class="nav-link">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </section>
+
+    <!-- SHOWCASE -->
+    <section class="text-light p-5 pt-5 text-center text-sm-start masthead" style="background-image: url('./img/binary_bg.jpg');">
+        <div class="container" >
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Buy our <span class="text-warning">New Merch</span> </h1>
+                    <p class="lead fs-10 lh-2 fw-bold my-4">
+                        Welcome to the University of Calgary's Electrical and Software Engineering Students' Society's official online store. ⭐ Scroll to see our products. ⭐
+                    </p>
+                </div>
+                <img class="img-fluid w-25 d-none d-sm-block image" src="img/zoo-blue.png" alt="Zoo logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Caraousel -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!-- Caraousel 1 -->
+                <div class="col-md">
+                    <div id="carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="20000">
+                            <img src="img/hoodie1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block align-text-top">
+                              <h5 class="cara_text">Black</h5>
+                              <p></p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="20000">
+                            <img src="img/hoodie2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block align-text-top">
+                              <h5 class="cara_text">Blue</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/hoodie3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block align-text-top">
+                              <h5 class="cara_text">Maroon</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div>
+                        <h5 class="card-title font-monospace">ZOO Hoodies</h5>
+                    </div>
+                </div>
+                <!-- Caraousel 2 -->
+                <div class="col-md">
+                    <div id="carousel2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="20000">
+                            <img src="img/long_navy.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="cara_text">Navy Blue</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="20000">
+                            <img src="img/long_tan.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="cara_text">Tan</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/long_maroon.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="cara_text">Maroon</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div>
+                        <h5 class="card-title font-monospace">ZOO Long Sleeves</h5>
+                    </div>
+                </div>
+                <!-- Caraousel 3 -->
+                <div class="col-md">
+                    <div id="carousel3" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="20000">
+                            <img src="img/swear_black.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="cara_text">Black</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="20000">
+                            <img src="img/sweat_maroon.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="cara_text">Maroon</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/sweat_navy.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="cara_text">Navy Blue</h5>
+                              <p> </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div>
+                        <h5 class="card-title font-monospace">ZOO Sweatshirts</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CONTACT AND MAP -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location: </span> ENA 106, 622 Collegiate Pl NW, Calgary, AB T2N 4V8
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location: </span> ENA 106, 622 Collegiate Pl NW, Calgary, AB T2N 4V8
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location: </span> ENA 106, 622 Collegiate Pl NW, Calgary, AB T2N 4V8
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location: </span> ENA 106, 622 Collegiate Pl NW, Calgary, AB T2N 4V8
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div><iframe class="w-100 img-fluid" style="height: 250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.504287382987!2d-114.13350178473537!3d51.08070024963306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f0eeb616997%3A0xce5ac04d99b6bf7b!2sSchulich%20School%20of%20Engineering!5e0!3m2!1sen!2sca!4v1663018920144!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="px-5 pb-5 bg-dark text-white text-center position-relative">
+        <div class="container p-5">
+            <a href="mailto:execs@zooengg.ca" target="_blank">
+                <img src="img/mail.png" alt="" class="img-fluid mx-3" style="width:40px">
+            </a>
+            <a href="https://www.instagram.com/inzoogram/" target="_blank" >
+                <img src="img/instagram.png" alt="" class="img-fluid mx-3" style="width:40px">
+            </a>
+            <a href="https://www.facebook.com/zooengg/" target="_blank">
+                <img src="img/facebook.png" alt="" class="img-fluid mx-3" style="width:40px">
+            </a>
+            <a href="https://twitter.com/zooengg"  target="_blank">
+                <img src="img/twitter.png" alt="" class="img-fluid mx-3" style="width:40px">
+            </a>
+            <a href="https://www.linkedin.com/company/zooengg/" class="mailto" target="_blank">
+                <img src="img/linkedin.png" alt="" class="img-fluid mx-3" style="width:40px">
+            </a>
+            <a href="https://discord.com/invite/nkEN6sG"  target="_blank">
+                <img src="img/discord.png" alt="" class="img-fluid mx-3" style="width:40px">
+            </a>
+        </div>
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Electrical and Software Engineering Students' Society</p>
+
+            <a href="#" class="position-absolute-bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
